@@ -22,5 +22,4 @@ server.bootstrap([
 //nodemon dist/main.js
 
 
-//shell cd 'C:\Program Files\MongoDB\Server\4.2\bin'
-//./mongod -dbpath=C:\Users\pe-ri\WebstormProjects\meat-api\tools
+// cd 'C:\Program Files\MongoDB\Server\4.2\bin'

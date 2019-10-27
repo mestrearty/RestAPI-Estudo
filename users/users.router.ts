@@ -45,4 +45,11 @@ class UsersRouter extends ModelRouter<User> {
     }
 }
 
+//colinha do pedro pra lembrar:
+//Get - pega do banco
+//Post - salva um novo no banco
+//Put - apaga e reinsere
+//Patch - altera um campo
+//Delete - apaga
+
 export const usersRouter = new UsersRouter()

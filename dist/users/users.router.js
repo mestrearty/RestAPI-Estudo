@@ -41,4 +41,10 @@ class UsersRouter extends model_router_1.ModelRouter {
         application.del(`${this.basePath}/:id`, [this.validateId, this.delete]);
     }
 }
+//colinha do pedro pra lembrar:
+//Get - pega do banco
+//Post - salva um novo no banco
+//Put - apaga e reinsere
+//Patch - altera um campo
+//Delete - apaga
 exports.usersRouter = new UsersRouter();
